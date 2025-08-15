@@ -1,0 +1,43 @@
+.add-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #00C2FF, #0047FF);
+  color: white;
+  border: none;
+  font-size: 2.5rem;
+  line-height: 55px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  z-index: 999;
+}
+
+.add-button:hover {
+  transform: scale(1.1);
+}
+
+/* Add these styles to your existing CSS file */
+.search-container {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 25px; /* Pill shape */
+  border: 2px solid #173352;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #00C2FF;
+}

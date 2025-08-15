@@ -1,6 +1,38 @@
+body {
+  background-color: #589EBC; /* Correct page background color */
+  font-family: 'Inter', sans-serif;
+}
+
 .App {
   text-align: center;
 }
+
+h1 {
+  font-size: 3em;
+  color: #FFFFFF; /* Changed to white for better visibility */
+  margin: 40px 0;
+}
+
+/* body {
+  background-color: #E5E5E5; 
+  font-family: 'Inter', sans-serif; 
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  
+  color: #000000; 
+  margin: 40px 0;
+} */
+
+/* .App {
+  text-align: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+} */
 
 .App-logo {
   height: 40vmin;
